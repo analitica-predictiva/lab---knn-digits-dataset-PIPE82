@@ -45,6 +45,7 @@ def pregunta_02():
     # Cree los vectors de características y de salida
     X = digits.data
     y = digits.target
+    
 
     # Divida los datos de entrenamiento y prueba. Los conjuntos de datos están
     # estratificados. La semilla del generador de números aleatorios es 42.
